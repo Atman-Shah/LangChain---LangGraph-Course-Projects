@@ -1,0 +1,17 @@
+{
+  "name": "langchain-&-langgraph-course-projects",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.43",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.3.5"
+  }
+}
