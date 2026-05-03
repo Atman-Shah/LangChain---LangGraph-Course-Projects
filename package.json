@@ -1,8 +1,11 @@
 {
-  "name": "langchain-&-langgraph-course-projects",
+  "name": "langchain-and-langgraph-course-projects",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "start": "bun run index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -10,8 +13,9 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@google/genai": "^1.51.0",
     "@langchain/core": "^1.1.43",
-    "dotenv": "^17.4.2",
-    "langchain": "^1.3.5"
+    "langchain": "^1.3.5",
+    "langsmith": "^0.6.0"
   }
 }
